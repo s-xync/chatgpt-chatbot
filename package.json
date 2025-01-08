@@ -2,9 +2,10 @@
   "name": "chatgpt-chatbot",
   "version": "1.0.0",
   "description": "ChatGPT Chatbot Terminal Application",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/s-xync/chatgpt-chatbot/issues"
   },
-  "homepage": "https://github.com/s-xync/chatgpt-chatbot#readme"
+  "homepage": "https://github.com/s-xync/chatgpt-chatbot#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.7",
+    "openai": "^4.77.3",
+    "readline-sync": "^1.4.10"
+  }
 }
